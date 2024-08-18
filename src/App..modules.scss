@@ -1,0 +1,36 @@
+/* Footer styling */
+.footer {
+  background-image: url('/footer.png');
+  background-size: cover; /* Ensures the image covers the footer area */
+  background-position: center; /* Centers the image */
+  padding: 20px; /* Adds padding inside the footer */
+  color: #fff; /* Sets text color to white for better contrast */
+  text-align: center; /* Centers text inside the footer */
+  font-family: 'Inter', sans-serif; /* Uses 'Inter' font for the footer text */
+}
+
+/* Additional styling for footer sections */
+.footer-section {
+  margin-bottom: 20px; /* Adds space between sections */
+}
+
+.footer-section h4 {
+  font-family: 'Nicomoji', sans-serif; /* Uses 'Nicomoji' font for section headings */
+  font-size: 1.2em; /* Adjusts font size for section headings */
+  margin-bottom: 10px; /* Adds space below headings */
+}
+
+.footer-links a {
+  color: #fff; /* Sets link color to white */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+.footer-social-icons img {
+  width: 24px; /* Adjust icon size */
+  margin: 0 10px; /* Adds space between icons */
+}
+
